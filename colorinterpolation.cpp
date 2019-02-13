@@ -1,8 +1,7 @@
 /*********************************************************************
  *  Author  : Tino Weinkauf
- *  Edit    : Filip Stål
  *  Init    : Thursday, February 08, 2018 - 08:57:14
- *
+ *  Lab Edit: Filip Stål
  *  Project : KTH Inviwo Modules
  *
  *  License : Follows the Inviwo BSD license model
@@ -151,14 +150,12 @@ namespace
         ColorSpace::Hsv ChangedColor;
 
         ChangedColor.h = Color.h;
-        //Alltså jag fattar inte, bara Color funkar inte
-        //Color.h , .s eller .v ger alla samma resultat??
         
         //pos x-axis
-        ChangedColor.s = tValue;
+        ChangedColor.s = tSaturation;
         
         //pos y-axis
-        ChangedColor.v = tSaturation;
+        ChangedColor.v = tValue;
 
         return ChangedColor;
     }
