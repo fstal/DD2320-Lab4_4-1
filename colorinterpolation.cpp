@@ -1,5 +1,6 @@
 /*********************************************************************
  *  Author  : Tino Weinkauf
+ *  Edit    : Filip Stål
  *  Init    : Thursday, February 08, 2018 - 08:57:14
  *
  *  Project : KTH Inviwo Modules
